@@ -24,6 +24,8 @@ print("Is 35 a prime: " + str(is_prime1(35)))
 print("Is 89 a prime: " + str(is_prime1(89)))
 
 
+
 print("Is 17 a prime: " + str(is_prime2(17)))
 print("Is 35 a prime: " + str(is_prime2(35)))
 print("Is 89 a prime: " + str(is_prime2(89)))
+print("Is 25 a prime: " + str(is_prime2(25)))

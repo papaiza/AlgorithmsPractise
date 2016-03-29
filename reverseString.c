@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-char* reverseArray(char* str){
-	char *temp ;
+char* reverseArray(char str[]){
+	char temp[100] ;
 	int i ;
 	int j;
 	int size = strlen(str);
@@ -15,6 +15,8 @@ char* reverseArray(char* str){
 
 int main(){
 	char* str = "Hello";
+	char* cu = "String";
 	printf("%s\n", reverseArray(str));
+	printf("%s\n", reverseArray(cu));
 	return 1;
 }
